@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-echo "-----> Nothing to compile"
+rm -rfv $2/*
+echo 'destroyed artifacts cache'
